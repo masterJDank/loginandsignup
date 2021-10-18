@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginOrSignup</title>
+    <link rel="stylesheet" href="signupandlogin.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="main-head">
+            <h2 id="MH1" onclick="checklog()">Log-in</h2>
+            <hr>
+            <h2 id="MH2" onclick="checksign()">Sign-up</h2>
+
+        </div>
+
+        <div class="forms">
+            <form action="" class="form1" id="form1" onclick="">
+
+                <label for="">Name<span>*</span>:</label>
+                <input type="text">
+                <label for="">Password<span>*</span>:</label>
+                <input type="password" name="" id="" autocomplete title="double click to see password ">
+                <p id="msg1"></p>
+                <input type="button" value="Submit" id="f1button">
+
+
+            </form>
+            <form action="" class="form2" id="form2">
+                <label for="" class="f2label">Name<span>*</span>:</label>
+                <input type="text" class="f2input" required autocomplete>
+                <label for="" class="f2label">Gmail<span>*</span>:</label>
+                <input type="text" class="f2input" required autocomplete>
+                <label for="" class="f2label">Password<span>*</span>:</label>
+                <input type="password" class="f2input" id="pass1" required autocomplete
+                    title="double click to see password ">
+                <label for="" class="f2label">Confirm Password<span>*</span>:</label>
+                <input type="password" class="f2input" id="pass2" required autocomplete
+                    title="double click to see password ">
+                <p id="msg2"></p>
+                <input type="button" value="Submit" id="f2button">
+            </form>
+
+        </div>
+    </div>
+    <script src="SULI.js"></script>
+</body>
+
+</html>
